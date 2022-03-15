@@ -1,20 +1,16 @@
 #include <stdio.h>
-
-
+#include <stdlib.h>
 /**
- *main - -prints the alphabet in lowercase
- *followed by a new line
- *Return: Always 0 (Success)
+ *get a random number,chack its last digit and compare it to 5
  */
-
 int main(void)
 {
-   char ch;
-   for(ch = 'a'; ch <= 'z'; ch++;)
-   {  
-        putchar(ch);
-   }
+  char c='a';
+  while(c<='z')
+  {
+    putchar(c);
+    c++;
+  }
   putchar('\n');
   return (0);
 }
-
