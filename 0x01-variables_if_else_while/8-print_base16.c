@@ -1,5 +1,7 @@
 #include <stdio.h>
+
 #include <stdlib.h>
+
 /**
  *prints all single digit numbers with base 10,starts from 0
  */
