@@ -1,13 +1,22 @@
 #include <stdio.h>
 
-
+/**
+ *prints alphabet in lowercase
+ */
 int main(void)
 {
-  int ch;
-  for (ch='a';ch<='z';ch++)
-      putchar(ch);
-  for (ch='A';ch<='Z';ch++)
-      putchar(ch);
-  putchar('\n';
+  char c='a';
+  while(c<='z')
+  { 
+    putchar(c);
+    c++;
+  }
+  c='A';
+  while(c<='Z')
+  {
+    putchar(c);
+    c++;
+  }
+  putchar('\n');
   return (0);
 }
